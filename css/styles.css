@@ -16,6 +16,7 @@
   --accent-portfolio-button-color: #ffffff;
   --price-titile-color: #212121;
   --price-after-titile-color: #757575;
+  --price-button-color: #f5f4fa;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -28,6 +29,26 @@ body {
   text-decoration: none;
 }
 /*---------------------HEADER-------------------------*/
+.header-logo-left {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+.header-logo-right {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -61,6 +82,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  background-color: var(--accent-color);
 
   color: var(--main-button-color);
 }
@@ -69,6 +91,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 
   color: var(--hero-tittle-color);
 }
@@ -76,11 +99,32 @@ body {
   background-color: #2f303a;
 }
 /*---------------------ABOUT-------------------------*/
+.footer-logo-left {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+.footer-logo-right {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
 .about-titil {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 
   color: var(--about-title-coior);
 }
@@ -154,6 +198,7 @@ body {
 }
 /* -----------------PORTFOLIO------------------------ */
 .main-button-titel {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -167,7 +212,6 @@ body {
 }
 .cursor-button {
   cursor: pointer;
-}
 }
 /* -----------------price------------------------ */
 .price-titil {
@@ -183,6 +227,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  background-color: var(--price-button-color);
 
   color: var(--price-after-titile-color);
 }
